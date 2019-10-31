@@ -21,7 +21,9 @@ body {
 .teaser {
     z-index: 2;
     margin-top: 40px;
+    text-align: center;
     height: 450px;
+    left: 50%;
 }
 
 .welcome {
