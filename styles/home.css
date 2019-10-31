@@ -13,14 +13,14 @@ body {
     font-family: Consolas;
     font-style: oblique;
     color: #313131;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
-    -webkit-animation: colorchange 20s infinite alternate;
+    -webkit-animation: colorchange 22s infinite alternate;
 }
 
 .teaser {
     z-index: 2;
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
     height: 450px;
     left: 50%;
@@ -31,7 +31,7 @@ body {
     text-align: center;
     font-family: Consolas;
     font-size: 20px;
-    color: darkblue;
+    color: rgb(241, 191, 24);
     border: thick;
 }
 
@@ -88,7 +88,7 @@ a:hover{
     }
 
     40% {
-        color: darkgoldenrod;
+        color: rgb(236, 179, 35);
     }
 
     50% {
@@ -96,19 +96,19 @@ a:hover{
     }
 
     60% {
-        color: darkred;
+        color: rgb(240, 218, 18);
     }
 
     70% {
-        color: darkmagenta
+        color: rgb(214, 40, 214)
     }
 
     80% {
-        color: darkslateblue;
+        color: rgb(136, 125, 207);
     }
 
     90% {
-        color: darkblue;
+        color: rgb(73, 164, 170);
     }
 
     100% {
