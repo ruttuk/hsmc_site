@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    font-family: Consolas;
+    font-style: oblique;
+    color: #313131;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-animation: colorchange 20s infinite alternate;
+}
+
+.teaser {
+    z-index: 2;
+    margin-top: 40px;
+    height: 450px;
+}
+
+.welcome {
+    z-index: 3;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 20px;
+    color: darkblue;
+    border: thick;
+}
+
+.twitter {
+    z-index: 4;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Consolas;
+    font-size: 20px;
+    color: forestgreen;
+    border: thick;
+    text-shadow: 1px 1px darkorange;
+}
+
+.itch {
+    z-index: 6;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Consolas;
+    font-size: 20px;
+    color: red;
+    border: thick;
+    text-shadow: 1px 1px darkgreen;
+}
+
+a:hover{
+    color:orangered;
+}
+
+
+#image {
+    height: 400px;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    position: fixed;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: black;
+    }
+
+    10% {
+        color: darkblue;
+    }
+
+    20% {
+        color: darkcyan;
+    }
+
+    30% {
+        color: darkgreen;
+    }
+
+    40% {
+        color: darkgoldenrod;
+    }
+
+    50% {
+        color: darkorange;
+    }
+
+    60% {
+        color: darkred;
+    }
+
+    70% {
+        color: darkmagenta
+    }
+
+    80% {
+        color: darkslateblue;
+    }
+
+    90% {
+        color: darkblue;
+    }
+
+    100% {
+        color: black;
+    }
+}
