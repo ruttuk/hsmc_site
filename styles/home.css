@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/home_background.png");
+    background-image: url("../images/home_background.png");
 }
 
 .wrapper {
@@ -52,7 +52,7 @@ body {
     margin-top: 10px;
     font-family: Consolas;
     font-size: 20px;
-    color: red;
+    color: orchid;
     border: thick;
     text-shadow: 1px 1px darkgreen;
 }
@@ -72,7 +72,7 @@ a:hover{
 
 @-webkit-keyframes colorchange {
     0% {
-        color: black;
+        color: yellow;
     }
 
     10% {
@@ -112,6 +112,6 @@ a:hover{
     }
 
     100% {
-        color: black;
+        color: yellow;
     }
 }
